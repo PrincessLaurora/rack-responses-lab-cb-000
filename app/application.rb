@@ -5,8 +5,8 @@ class Application
 
     t = Time.now
 
-    if t.strftime("%k:%M") <= "12:00"
-      #Alternatively => if t.hour <= 12
+    if t.hour <= 12
+      #Alternatively => t.strftime("%k:%M") <= "12:00"
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
