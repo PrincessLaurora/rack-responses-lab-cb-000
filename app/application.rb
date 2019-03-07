@@ -13,5 +13,4 @@ class Application
 
     resp.finish
   end
-
 end
