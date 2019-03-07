@@ -5,7 +5,7 @@ class Application
 
     t = Time.now
 
-    if t < 12:00:00
+    if t < 12:00:00\n
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
